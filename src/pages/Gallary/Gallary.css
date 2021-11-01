@@ -1,0 +1,30 @@
+.gallary-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px 30px 20px;
+}
+.gallary-box{
+    
+
+}
+.card{
+    /* display: flex; */
+
+}
+.card-img img{
+    width: 100%;
+}
+.card-body{
+    
+}
+@media only screen and (min-width:426px) and (max-width: 991px){
+    .gallary-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width:425px) and (min-width: 0px){
+    .gallary-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

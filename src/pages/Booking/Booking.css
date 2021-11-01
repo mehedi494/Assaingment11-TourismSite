@@ -1,0 +1,38 @@
+.container{
+     padding-top: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+.body{
+    padding: 0 10px;
+}
+.box{
+    box-shadow: lightgray 2px 1px 1px ;
+    width: 70%;
+    display: flex;
+    border-radius: 5px ;
+    height: 100%;
+    
+    
+    
+    align-items: center;
+}
+.image{
+    
+    margin-bottom: -6px;
+    
+}
+
+.box img{
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+    height: auto;
+    
+    
+}
