@@ -19,7 +19,7 @@ const Booking = () => {
     const [service, setService] = useState({});
     const { title, description, country, img, price } = service;
     useEffect(() => {
-        const url = `https://shielded-reaches-31544.herokuapp.com//packege/${packegeId}`;
+        const url = `https://shielded-reaches-31544.herokuapp.com/packege/${packegeId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setService(data))

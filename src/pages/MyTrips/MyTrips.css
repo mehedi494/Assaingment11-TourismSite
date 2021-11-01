@@ -22,6 +22,7 @@
     border: 1px solid lightgrey;
     width: 60%;
     height: 200px;
+    margin-top: 20PX;
     
 }
 .trip-card img{
@@ -34,8 +35,11 @@
 }
 .trip-card-body{
     /* display: flex; */
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 .trip-card-body h4{
-    padding-left: 20px;
+    /* margin-top: 10px; */
+    /* padding-left: 10px; */
 }
