@@ -12,3 +12,5 @@
 
 
 ## live site link:
+*netltyfie : https://assaignment-11.netlify.app/login
+* firebase: 
